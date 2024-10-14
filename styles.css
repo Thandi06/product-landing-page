@@ -1,0 +1,178 @@
+/* Resetting basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #402a23;
+    padding: 20px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1000;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+.nav-link {
+    font-size: 20px;
+    color: #f3bc77;
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 50px;
+}
+.nav-links a {
+    color:#f3bc77;
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #a55233;
+}
+/* Hero Section */
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #a55233;
+    color: #f3bc77;
+}
+
+#hero {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+div.home-info {
+    max-width: 600px;
+}
+.home-img{
+    padding-top: 100px;
+}
+.image{
+    border-radius: 50%;
+    width: 450px;
+    box-shadow: 0 5px 20px rgba(10, 7, 6, 0.1);
+}
+
+
+.home-info h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+#cta {
+    background-color: #402a23;
+    color: #f3bc77;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#cta:hover{
+    background-color: #f3bc77;
+    color: #402a23;
+    cursor: pointer;
+}
+
+/* Features Section */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: white;
+    color: #402a23;
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+/* Pricing Section */
+#pricing {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #402a23;
+}
+
+.price-option {
+    text-align: center;
+    border: 1px solid #f3bc77;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 5px;
+    color: #a55233;
+}
+
+.price-option h2 {
+    margin-bottom: 10px;
+}
+
+.price-option p {
+    font-size: 1.5rem;
+    color: #f3bc77;
+    margin-bottom: 10px;
+}
+
+.price-option ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.price-option .btn {
+    background-color: #f3bc77;
+    color: #a55233;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.price-option .btn:hover{
+    background-color: #a55233;
+    color:  #f3bc77;
+    border: 3px solid #f3bc77;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#402a23;
+    color: #f3bc77;
+}
