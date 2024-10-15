@@ -37,17 +37,20 @@ body {
     font-weight: 100;
     margin-left: 50px;
 }
+
 .nav-links a {
-    color:#f3bc77;
+    color: #f3bc77;
     text-decoration: none;
     margin-left: 50px;
     font-size: 20px;
     font-weight: 100;
     transition: color 0.3s;
 }
+
 .nav-links a:hover {
     color: #a55233;
 }
+
 /* Hero Section */
 .container {
     display: flex;
@@ -64,13 +67,16 @@ body {
     gap: 7em;
     padding: 30px 12% 0;
 }
+
 div.home-info {
     max-width: 600px;
 }
-.home-img{
+
+.home-img {
     padding-top: 100px;
 }
-.image{
+
+.image {
     border-radius: 50%;
     width: 450px;
     box-shadow: 0 5px 20px rgba(10, 7, 6, 0.1);
@@ -95,7 +101,8 @@ p {
     font-weight: bold;
     border-radius: 5px;
 }
-#cta:hover{
+
+#cta:hover {
     background-color: #f3bc77;
     color: #402a23;
     cursor: pointer;
@@ -163,9 +170,10 @@ p {
     text-decoration: none;
     border-radius: 5px;
 }
-.price-option .btn:hover{
+
+.price-option .btn:hover {
     background-color: #a55233;
-    color:  #f3bc77;
+    color: #f3bc77;
     border: 3px solid #f3bc77;
 }
 
@@ -173,6 +181,117 @@ p {
 footer {
     text-align: center;
     padding: 10px;
-    background-color:#402a23;
+    background-color: #402a23;
     color: #f3bc77;
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #navbar {
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    #hero {
+        flex-direction: column;
+        gap: 2em;
+        padding: 20px 5%;
+    }
+
+    .home-img {
+        padding-top: 20px;
+    }
+
+    .image {
+        width: 300px;
+    }
+
+    .home-info h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #hero {
+        padding: 10px 2%;
+    }
+
+    .home-info h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    #features {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .feature {
+        margin-bottom: 20px;
+    }
+
+    #pricing {
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .price-option {
+        margin-bottom: 20px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    #cta {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .home-info h1 {
+        font-size: 24px;
+    }
+
+    .image {
+        width: 200px;
+    }
+
+    .price-option p {
+        font-size: 1.2rem;
+    }
 }
