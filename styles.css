@@ -222,14 +222,37 @@ footer {
 
 @media (max-width: 768px) {
     #navbar {
-        justify-content: space-between;
-        padding: 10px;
+       
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        gap: 10px;
+            /* Spacing between links */
+        text-align: center;
+        height: auto;
     }
 
     .nav-links {
-        display: none;
+        display: flex;
+            flex-direction: column;
+            /* Stack links vertically */
+            align-items: center;
+            gap: 10px;
+            /* Add space between each link */
+            margin: 0;
+            /* Remove extra margins */
     }
-
+    
+    .nav-links a {
+        font-size: 18px;
+        margin: 0;
+             /* Ensure no additional space between links */
+        padding: 10px 0;
+             /* Add some padding for better touch targets */
+        width: 100%;
+             /* Ensure links stretch full width */
+        text-align: center;
+         }
     .logo {
         height: 40px;
     }
@@ -238,6 +261,10 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .first{
+        margin-top: 50px;
     }
 
     #hero {
@@ -250,6 +277,10 @@ footer {
 
     p {
         font-size: medium;
+    }
+
+    .home-img{
+        margin-top: 150px;
     }
 
     #features {
