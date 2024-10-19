@@ -264,7 +264,7 @@ footer {
     }
 
     .home-info{
-        margin-top: 150px;
+        margin-top: 250px;
     }
 
     #hero {
@@ -278,10 +278,7 @@ footer {
     p {
         font-size: medium;
     }
-
-    .img{
-        margin-top: 300px;
-    }
+    
     .image{
         width: 300px;
     }
