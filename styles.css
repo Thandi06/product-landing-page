@@ -264,7 +264,8 @@ footer {
     }
 
     .home-info{
-        margin-top: 250px;
+        margin-top: 350px;
+        margin-bottom: 0;
     }
 
     #hero {
@@ -282,7 +283,9 @@ footer {
     .image{
         width: 300px;
     }
-
+    .img{
+        margin-top: 0;
+    }
     #features {
         flex-direction: column;
         padding: 30px 10px;
