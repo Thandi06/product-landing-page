@@ -263,8 +263,8 @@ footer {
         text-align: center;
     }
 
-    .first{
-        margin-top: 50px;
+    .home-info{
+        margin-top: 250px;
     }
 
     #hero {
@@ -279,7 +279,7 @@ footer {
         font-size: medium;
     }
 
-    .home-img{
+    .img{
         margin-top: 150px;
     }
 
